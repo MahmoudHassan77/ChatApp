@@ -16,7 +16,7 @@ function App() {
     localStorage.setItem('user', user);
     try{
       const connection = new HubConnectionBuilder()
-      .withUrl("https://localhost:9090/chat")
+      .withUrl("http://trezeguit-001-site1.btempurl.com/chat")
       .configureLogging(LogLevel.Information)
       .build();
 
