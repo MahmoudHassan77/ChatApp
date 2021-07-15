@@ -1,3 +1,11 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
 Form Button {
   width: 100%;
   cursor: pointer;
@@ -8,7 +16,7 @@ Form input{
 }
 
 h2 {
-  color: #313131;
+  color: #f7f2f2;
 }
 
 h6 {
@@ -16,7 +24,7 @@ h6 {
 }
 
 hr.line {
-  border: 1px solid #313131;
+  border: 1px solid #ffffff;
   width: 175px;
 }
 
@@ -42,7 +50,7 @@ hr.line {
 
 .leave-room {
   text-align: right;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 
 .user-list {
@@ -50,8 +58,10 @@ hr.line {
   background-color: #313131;
   color:white;
   width: 200px;
-  height: 440px;
+  height: 448px;
   margin-right: 4px;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 .message-container {
@@ -116,4 +126,21 @@ hr.line {
 }
 label{
  font-size: larger;
+}
+
+.sendCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sendCont button{
+  width: 70px;
+  margin-bottom: 8px;
+}
+.mainChatCont{
+  display: flex;
+  flex-direction: column;
+}
+.chatB{
+  display: flex;
 }
